@@ -1,0 +1,263 @@
+body {
+	margin-top: 5%;
+  background: url(bg.jpg);
+  font-family: Algerian;
+	padding: 20px;
+  background-position: default;
+}
+img {
+  opacity: 0.5;
+}
+*{
+	box-sizing: border-box;
+}
+ 
+form{
+	max-width: 450px;
+	margin: 0 auto;
+}
+ 
+form > div{
+	margin-top: 5px;
+	position: relative;
+	background: white;
+	border-bottom: 1px solid #ccc;
+}
+ 
+form > div > label{
+	opacity: 0.3;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+ 
+form > div > input[type="text"],
+form > div > input[type="email"],
+form > div > input[type="password"],
+form > div > input[type="tel"]{
+	width: 80%;
+	border: 0;
+	padding: 20px 20px 20px 60px;
+	background: whitesmoke;
+}
+ 
+form > div > input[type="text"]:focus,
+form > div > input[type="email"]:focus,
+form > div > input[type="password"]:focus,
+form > div > input[type="tel"]:focus{
+	outline: 0;
+	background: white;
+}
+ 
+form > div > input[type="text"]:focus + label,
+form > div > input[type="email"]:focus + label,
+form > div > input[type="password"]:focus + label,
+form > div > input[type="tel"]:focus + label{
+	opacity: 0;
+}
+ 
+form > div > input[type="text"]:valid,
+form > div > input[type="email"]:valid,
+form > div > input[type="password"]:valid,
+form > div > input[type="tel"]:valid{
+	background: url(bg.jpg);
+	background-size: 0px;
+  background-position: center;
+}
+ 
+form > div > input[type="text"]:valid + label,
+form > div > input[type="email"]:valid + label,
+form > div > input[type="password"]:valid + label,
+form > div > input[type="tel"]:valid + label{
+	opacity: 0;
+}
+ 
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="password"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="tel"]:invalid:not(:focus):not(:placeholder-shown)
+
+ 
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) + label,
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) + label,
+form > div > input[type="password"]:invalid:not(:focus):not(:placeholder-shown) + label,
+form > div > input[type="tel"]:invalid:not(:focus):not(:placeholder-shown) + label{
+	opacity: 0;
+}
+ 
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements,
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements,
+form > div > input[type="password"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements,
+form > div > input[type="tel"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements{
+	margin-top: 5px;
+	max-height: 200px;
+	padding: 5px 30px 5px 50px;
+	border-top: 1px dashed #aaa;
+	background-color: whitesmoke;
+}
+ 
+form > div .requirements {
+	padding: 0 30px 0 50px;
+	color: #C73030;
+	max-height: 0;
+	transition: 0.28s;
+	overflow: hidden;
+	font-style: italic;
+	font-size: 0.8em;
+}
+ 
+form input[type="submit"]{
+	display: block;
+	width: 100%;
+	margin: 30px 0;
+	background: crimson;
+	color: white;
+	border: 0;
+	padding: 30px;
+	font-size: 1.5rem;
+}
+
+.navbar{
+  display: flex;
+  background: url(image.jpg) ;
+  height:100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  min-height: 50px;
+}
+
+Body {
+	Margin: 0;
+	Padding: 0;
+	Height: 100vh;
+}
+  
+  .Container {
+	Display: Flex;
+	Flex-Flow: Column;
+	Height: 100%;
+	Align-Items: Space-Around;
+	Justify-Content: Center;
+  }
+  
+  .UserInput {
+	Display: Flex;
+	Justify-Content: Center;
+  }
+  
+  Input {
+	Margin: 10px;
+	Height: 35px;
+	Width: 65px;
+	Border: None;
+	Border-Radius: 5px;
+	Text-Align: Center;
+	Font-Family: Arimo;
+	Font-Size: 1.2rem;
+	Background: lightblue ;
+  }
+  
+  H1 {
+	Text-Align: Center;
+	Font-Family: Arimo;
+	Color: black;
+  }
+  
+  Button {
+	Width: 150px;
+	Height: 40px;
+	Margin: 25px Auto 0px Auto;
+	Font-Family: Arimo;
+	Font-Size: 1.1rem;
+	Border: None;
+	Border-Radius: 5px;
+	Letter-Spacing: 2px;
+	Cursor: Pointer;
+  }
+  Body {
+	Margin: 0;
+	Padding: 0;
+	Height: 100vh;
+  }
+  .Container {
+	Display: Flex;
+	Flex-Flow: Column;
+	Height: 100%;
+	Align-Items: Space-Around;
+	Justify-Content: Center;
+  }
+  .UserInput {
+	Display: Flex;
+	Justify-Content: Center;
+  }
+  
+  Input {
+	Margin: 10px;
+	Height: 35px;
+	Width: 65px;
+	Border: None;
+	Border-Radius: 5px;
+	Text-Align: Center;
+	Font-Family: Arimo;
+	Font-Size: 1.2rem;
+	Background: lightblue;
+  }
+  H1 {
+	Text-Align: Center;
+	Font-Family: Arimo;
+	Color: black;
+  }
+  
+  Button {
+	Width: 150px;
+	Height: 40px;
+	Margin: 25px Auto 0px Auto;
+	Font-Family: Arimo;
+	Font-Size: 1.1rem;
+	Border: None;
+	Border-Radius: 5px;
+	Letter-Spacing: 2px;
+	Cursor: Pointer;
+	Background: #616161; /* Fallback For Old Browsers */
+	Background: -Webkit-Linear-Gradient(
+	  To Right,
+	  #9bc5c3,
+	  #616161
+	); /* Chrome 10-25, Safari 5.1-6 */
+	Background: Linear-Gradient(
+	  To Right,
+	  #9bc5c3,
+	  #616161
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 3%;
+  min-height: 40px;
+  margin-left: 350px;
+  font-size:24px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: WHITE;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.5 ease;
+}
+
+ul li a:hover{
+  background-color: rgb(245, 239, 208);
+  color:#000;
+
+}
+
+ul li.active a{
+  background-color: #fff;
+}
+
